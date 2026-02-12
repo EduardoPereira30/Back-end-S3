@@ -7,6 +7,7 @@ namespace ex5
 {
     public class Pessoa
     {
+        public string nome = "";
         
     }
 }

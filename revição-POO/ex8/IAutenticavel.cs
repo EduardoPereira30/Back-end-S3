@@ -7,6 +7,7 @@ namespace ex8
 {
     public interface IAutenticavel
     {
-        
+        public bool Autenticar(string senha);
+
     }
 }

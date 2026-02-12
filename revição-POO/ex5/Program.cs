@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Linq.Expressions;
+using ex5;
+
+Funcionario fn = new Funcionario("Eduardo", 17);
+
+fn.ExibirDados();

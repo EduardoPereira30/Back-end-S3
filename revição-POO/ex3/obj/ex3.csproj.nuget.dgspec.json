@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex2\\ex3\\ex3.csproj": {}
+    "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex3\\ex3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex2\\ex3\\ex3.csproj": {
+    "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex3\\ex3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex2\\ex3\\ex3.csproj",
+        "projectUniqueName": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex3\\ex3.csproj",
         "projectName": "ex3",
-        "projectPath": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex2\\ex3\\ex3.csproj",
+        "projectPath": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex3\\ex3.csproj",
         "packagesPath": "C:\\Users\\41932003886\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex2\\ex3\\obj\\",
+        "outputPath": "C:\\Users\\41932003886\\Desktop\\Back-end-S3\\revição-POO\\ex3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\41932003886\\AppData\\Roaming\\NuGet\\NuGet.Config"

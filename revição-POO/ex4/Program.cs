@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ex4;
+
+Pessoa p = new Pessoa("Eduardo", 17);
+
+p.Exibirdados();

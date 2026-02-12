@@ -5,8 +5,12 @@ using System.Threading.Tasks;
 
 namespace ex7
 {
-    public class Carro
+    public class Carro : Veiculo
     {
-        
+        public void Mover()
+        {
+            Console.WriteLine("Vrum Vrum!!");
+        }
+
     }
 }

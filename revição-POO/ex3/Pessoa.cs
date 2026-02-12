@@ -10,33 +10,35 @@ namespace ex3
 
 
         public string Nome = "Eduardo";
-        
-        public int Idade = 16 ;
+
+        public int Idade = 16;
 
 
         public void Exibirdados()
         {
-            
-        Console.WriteLine($"olá {Nome}, você tem {Idade} anos");
+
+            Console.WriteLine($"olá {Nome}, você tem {Idade} anos");
 
         }
-            public Pessoa( string n, int i)
+        public Pessoa(string n, int i)
         {
 
-            if(i > 0)
+            if (i > 0)
             {
-                
-                Idade= i;
+
+                Idade = i;
 
             }
             else
             {
                 System.Console.WriteLine("idade invalida");
 
+                Idade = 0;
+
             }
-             Nome = n;
-             
-            
+            Nome = n;
+
+
         }
     }
 }

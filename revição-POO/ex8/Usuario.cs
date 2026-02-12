@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 
 namespace ex8
 {
-    public class Usuario
+    public class Usuario : iAutenticavel
     {
-        
+        public string Nome = "";
+        public string Senha = "";
+        public bool Autenticar(string senha)
+        {
+            return Senha == senha;
+        }
     }
 }

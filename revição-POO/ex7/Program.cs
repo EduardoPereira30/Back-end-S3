@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Exercicio07;
+Carro carro = new Carro();
+Bicicleta bicicleta = new Bicicleta();
+carro.Mover();
+bicicleta.Mover();
