@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 240px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300px;
+}
+
+
+
+.layout-grid {
+
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*******************     main     **************/
+
+.banner {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner img {
+    width: 100%;
+
+
+}
+
+.banner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+
+    width: 135px;
+    height: 35px;
+    background-color: black;
+
+    position: absolute;
+
+    top: 55%;
+    left: calc(50% - 155px /2);
+}
+
+.reason-to-use {
+    position: relative;
+    height: 500px;
+}
+
+.reason-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reason-card {
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.reason-card h2 {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.reason-card p {
+    color: #171717;
+    text-align: center;
+
+}
+
+.imagem {
+    width: 75px;
+    height: 75px;
+    border: 1px solid mediumslateblue;
+    border-radius: 50%;
+}
