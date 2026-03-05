@@ -1,7 +1,6 @@
 ﻿using FilmesT.WebAPI.DTO;
 using FilmesT.WebAPI.Interfaces;
 using FilmesT.WebAPI.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -32,16 +31,16 @@ namespace FilmesT.WebAPI.Controllers
                     return NotFound("Email ou Senha invalida!");
                 }
 
-                var claims = new[]
+                var Claims = new[]
                 {
                     new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.Idusuario),
-                    new Claim(JwtRegisteredClaimNames.Jti, usuarioBuscado.Email),
+                    new Claim(JwtRegisteredClaimNames.Email, usuarioBuscado.Email!),
                 };
 
                 //definir a chave de acesso ao token
-                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("filmes-chaves-autenticacao-webapi-dev"));
+                var key = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes("filmes-chave-autentificacao-webapi-dev"));
 
-                var cleds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
                 var token = new JwtSecurityToken(
 
@@ -49,16 +48,16 @@ namespace FilmesT.WebAPI.Controllers
 
                     audience: "api_filmes",
 
-                    claims: claims,
+                    claims: Claims,
 
-                    expires: DateTime.Now.AddMinutes(10),
+                    expires: DateTime.Now.AddMinutes(5),
 
-                    signingCredentials: cleds
+                    signingCredentials: creds
                     );
 
                 return Ok(new
                 {
-                    token= new JwtSecurityTokenHandler().WriteToken(token)
+                    token = new JwtSecurityTokenHandler().WriteToken(token)
                 });
             }
             catch (Exception e)

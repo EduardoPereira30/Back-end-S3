@@ -162,3 +162,4 @@ C:\Users\41932003886\source\repos\FilmesT.WebAPI\bin\Debug\net10.0\Swashbuckle.A
 C:\Users\41932003886\source\repos\FilmesT.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\41932003886\source\repos\FilmesT.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\41932003886\source\repos\FilmesT.WebAPI\obj\Debug\net10.0\FilmesT.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\41932003886\source\repos\FilmesT.WebAPI\bin\Debug\net10.0\FilmesT.WebAPI.staticwebassets.runtime.json

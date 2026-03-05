@@ -1,6 +1,5 @@
 ﻿using FilmesT.WebAPI.Interfaces;
 using FilmesT.WebAPI.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FilmesT.WebAPI.Controllers

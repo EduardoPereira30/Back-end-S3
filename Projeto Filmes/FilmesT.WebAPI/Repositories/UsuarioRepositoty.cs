@@ -2,8 +2,6 @@
 using FilmesT.WebAPI.Interfaces;
 using FilmesT.WebAPI.Models;
 using FilmesT.WebAPI.Utils;
-using Microsoft.IdentityModel.Tokens;
-
 namespace FilmesT.WebAPI.Repositories
 {
     public class UsuarioRepositoty : IUsuarioRepository
