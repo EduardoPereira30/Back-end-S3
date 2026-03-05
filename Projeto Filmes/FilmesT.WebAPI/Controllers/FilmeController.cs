@@ -36,7 +36,7 @@ namespace FilmesT.WebAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public IActionResult Get()
         {

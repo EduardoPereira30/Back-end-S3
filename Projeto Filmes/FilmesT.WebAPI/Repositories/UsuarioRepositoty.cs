@@ -29,7 +29,7 @@ namespace FilmesT.WebAPI.Repositories
                      }
 
             }
-            return null;
+            return null!;
             }
             catch (Exception)
             {
